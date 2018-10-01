@@ -12,7 +12,7 @@ try:
 	import numpy
 	from numpy.distutils.core import setup, Extension
 except:
-	print "Could not load NumPy (numpy.distutils.core), required by this package. Aborting"
+	print("Could not load NumPy (numpy.distutils.core), required by this package. Aborting")
 	sys.exit(1)
 
 module_pyana = Extension('_pyana',
